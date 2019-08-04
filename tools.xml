@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+
+<utilityTools>
+  <tool name="Unit Converter" id="0">
+    <select3 id="type" count="1" classList="group1 group2">
+      <option>Mass</option>
+      <option>Length</option>
+      <option>Area</option>
+      <option>Volume</option>
+    </select3>
+    <input1 id="input1" count="1"></input1>
+    <select1 id="units1" count="1">
+      <option val="1000000" type="Mass">Tonne</option>
+      <option val="1000" type="Mass">Kilogram</option>
+      <option val="1" type="Mass">Gram</option>
+      <option val="0.001" type="Mass">Milligram</option>
+      <option val="0.000001" type="Mass">Microgram</option>
+      <option val="1016000" type="Mass">Imperial ton</option>
+      <option val="6350.29" type="Mass">Stone</option>
+      <option val="453.592" type="Mass">Pound</option>
+      <option val="28.3495" type="Mass">Ounce</option>
+      
+      <option val="1000" type="Length">Kilometre</option>
+      <option val="1" type="Length">Metre</option>
+      <option val="0.01" type="Length">Centimetre</option>
+      <option val="0.001" type="Length">Millimetre</option>
+      <option val="0.000001" type="Length">Micrometre</option>
+      <option val="0.000000001" type="Length">Nanometre</option>
+      <option val="1609.34" type="Length">Mile</option>
+      <option val="0.9144" type="Length">Yard</option>
+      <option val="0.3048" type="Length">Foot</option>
+      <option val="0.0254" type="Length">Inch</option>
+
+      <option val="1000000" type="Area">Square Kilometre</option>
+      <option val="1" type="Area">Square Metre</option>
+      <option val="2590000" type="Area">Square Mile</option>
+      <option val="0.836127" type="Area">Square Yard</option>
+      <option val="0.092903" type="Area">Square Foot</option>
+      <option val="0.00064516" type="Area">Square Inch</option>
+      <option val="10000" type="Area">Hectare</option>
+      <option val="4046.86" type="Area">Acre</option>
+
+      <option val="0.946353" type="Volume">US Liquid Quart</option>
+      <option val="0.473176" type="Volume">US Liquid Pint</option>
+      <option val="0.24" type="Volume">US Legal Cup</option>
+      <option val="0.0295735" type="Volume">US Fluid Ounce</option>
+      <option val="1000" type="Volume">Cubic Meter</option>
+      <option val="1" type="Volume">Litre</option>
+      <option val="0.001" type="Volume">Millilitre</option>
+      <option val="0.284131" type="Volume">Imperial Cup</option>
+      <option val="0.568261" type="Volume">Imperial Pint</option>
+      <option val="1.13652" type="Volume">Imperial Quart</option>
+      <option val="4.54609" type="Volume">Imperial Gallon</option>
+      <option val="28.3168" type="Volume">Cubic Foot</option>
+      <option val="0.0163871" type="Volume">Cubic Inch</option>
+    </select1>
+    <input2 id="input2" count="1"></input2>
+    <select2 id="units2" count="1">
+      <option val="1000000" type="Mass">Tonne</option>
+      <option val="1000" type="Mass">Kilogram</option>
+      <option val="1" type="Mass">Gram</option>
+      <option val="0.001" type="Mass">Milligram</option>
+      <option val="0.000001" type="Mass">Microgram</option>
+      <option val="1016000" type="Mass">Imperial ton</option>
+      <option val="6350.29" type="Mass">Stone</option>
+      <option val="453.592" type="Mass">Pound</option>
+      <option val="28.3495" type="Mass">Ounce</option>
+
+      <option val="1000" type="Length">Kilometre</option>
+      <option val="1" type="Length">Metre</option>
+      <option val="0.01" type="Length">Centimetre</option>
+      <option val="0.001" type="Length">Millimetre</option>
+      <option val="0.000001" type="Length">Micrometre</option>
+      <option val="0.000000001" type="Length">Nanometre</option>
+      <option val="1609.34" type="Length">Mile</option>
+      <option val="0.9144" type="Length">Yard</option>
+      <option val="0.3048" type="Length">Foot</option>
+      <option val="0.0254" type="Length">Inch</option>
+
+      <option val="1000000" type="Area">Square Kilometre</option>
+      <option val="1" type="Area">Square Metre</option>
+      <option val="2590000" type="Area">Square Mile</option>
+      <option val="0.836127" type="Area">Square Yard</option>
+      <option val="0.092903" type="Area">Square Foot</option>
+      <option val="0.00064516" type="Area">Square Inch</option>
+      <option val="10000" type="Area">Hectare</option>
+      <option val="4046.86" type="Area">Acre</option>
+
+      <option val="0.946353" type="Volume">US Liquid Quart</option>
+      <option val="0.473176" type="Volume">US Liquid Pint</option>
+      <option val="0.24" type="Volume">US Legal Cup</option>
+      <option val="0.0295735" type="Volume">US Fluid Ounce</option>
+      <option val="1000" type="Volume">Cubic Meter</option>
+      <option val="1" type="Volume">Litre</option>
+      <option val="0.001" type="Volume">Millilitre</option>
+      <option val="0.284131" type="Volume">Imperial Cup</option>
+      <option val="0.568261" type="Volume">Imperial Pint</option>
+      <option val="1.13652" type="Volume">Imperial Quart</option>
+      <option val="4.54609" type="Volume">Imperial Gallon</option>
+      <option val="28.3168" type="Volume">Cubic Foot</option>
+      <option val="0.0163871" type="Volume">Cubic Inch</option>
+    </select2>
+  </tool>
+  <tool name="Mortgage Calculator" id="1">
+    <div class="toolsTitle">Mortgage Calculator</div>
+
+      <div class="smallContainer">
+        <label class="control-label">Home Price:</label>
+        <input type="number" id="price" class="form-control" step="1000"></input>
+      </div>
+      <div class="smallContainer">
+        <label class="control-label">Down Payment:</label>
+        <input type="number" id="downPayment" class="form-control" step="1000"></input>
+      </div>  
+      <div class="smallContainer">
+        <label class="control-label">Interest Rate:</label>
+        <input type="number" id="interestRate" class="form-control" step="1000"></input>
+      </div>
+      <div class="smallContainer">
+        <label class="control-label">Mortgage Length:</label>
+        <input type="number" id="mortgageLength" class="form-control" step="1000"></input>
+      </div>
+      <div class="smallContainer">
+        <label class="control-label">Payment Frequency:</label>
+        <!--<div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            Monthly <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" id="payFrequency">
+            <li><a href="#">Monthly</a></li>
+            <li><a href="#">Biweekly</a></li>
+            <li><a href="#">Weekly</a></li>
+          </ul>
+        </div>-->
+        <select class="form-control" id="payFrequency">
+          <option value="12" selected="selected">Monthly</option>
+          <option value="27">Biweekly</option>
+          <option value="54">Weekly</option>
+        </select>
+      </div>
+      <div class="smallContainer">
+        <label id="mortgageLabel" class="control-label">Please fill all the forms..</label>
+      </div>
+
+  </tool>
+  <tool name="Currency Converter" id="2">
+
+      <div class="toolsTitle">Currency Converter</div>
+      <div class="smallContainer">
+        <img class="currencyFlag" src="http://www.geonames.org/flags/l/ca.gif"/>
+        <label class="control-label2">Canadian Dollar (CAD):</label>
+        <input type="number" id="CAD" step="any" class="form-control"></input>
+      </div>
+      <div class="smallContainer">
+        <img class="currencyFlag" src="http://www.geonames.org/flags/l/us.gif"/>
+        <label class="control-label2">US Dollar (USD):</label>
+        <input type="number" id="USD" step="any" class="form-control"></input>
+      </div>
+      <div class="smallContainer">
+        <img class="currencyFlag" src="http://www.geonames.org/flags/l/cn.gif"/>
+        <label class="control-label2">Chinese Yuan (CNY):</label>
+        <input type="number" id="CNY" step="any" class="form-control"></input>
+      </div>
+      <div class="smallContainer">
+        <img class="currencyFlag" src="http://www.flags.net/images/largeflags/EUUN0001.GIF"/>
+        <label class="control-label2">Euro (EUR):</label>
+        <input type="number" id="EUR" step="any" class="form-control"></input>
+      </div>
+      
+  </tool>
+</utilityTools>

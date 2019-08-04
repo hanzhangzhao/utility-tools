@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../shared/tma1.css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>TMA1 Part4</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../TMA1.html">TMA1 Homepage</a>
+            </div>
+
+            <!-- toggling content -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../part1/resume.xml">Part 1</a></li>
+                    <li><a href="../part2/welcomepage.html">Part 2</a></li>
+                    <li><a href="../part3/index.html">Part 3</a></li>
+                    <li><a href="#">Part 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <ul class="col-sm-3 nav stacked" id="aside">
+            <li class="active tabs" value="0"><a href="#">Unit Converter</a></li>
+            <li class="tabs" value="1"><a href="#">Mortgage Calculator</a></li>
+            <li class="tabs" value="2"><a href="#">Currency Converter</a></li>
+        </ul>
+        <div class="col-sm-9 main-content utilityTools" id="dispContent"></div>
+    </div>
+
+    <script src="tools.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            loadXML("tools.xml");
+        }
+    </script>
+</body>
+</html>
